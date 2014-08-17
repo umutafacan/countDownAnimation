@@ -19,6 +19,19 @@
 		4C3E62E919A0B44000C88223 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E62D119A0B43F00C88223 /* UIKit.framework */; };
 		4C3E62F119A0B44000C88223 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E62EF19A0B44000C88223 /* InfoPlist.strings */; };
 		4C3E62F319A0B44000C88223 /* countDownAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E62F219A0B44000C88223 /* countDownAnimationTests.m */; };
+		4C3E62FF19A0B46F00C88223 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E62FD19A0B46F00C88223 /* MainViewController.m */; };
+		4C3E630019A0B46F00C88223 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E62FE19A0B46F00C88223 /* MainViewController.xib */; };
+		4C3E631119A0B4D900C88223 /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630319A0B4D900C88223 /* JDDateCountdownFlipView.m */; };
+		4C3E631219A0B4D900C88223 /* JDFlipClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630519A0B4D900C88223 /* JDFlipClockView.m */; };
+		4C3E631319A0B4D900C88223 /* JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630719A0B4D900C88223 /* JDFlipImageView.m */; };
+		4C3E631419A0B4D900C88223 /* JDFlipNumberDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630919A0B4D900C88223 /* JDFlipNumberDigitView.m */; };
+		4C3E631519A0B4D900C88223 /* JDFlipNumberView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E630A19A0B4D900C88223 /* JDFlipNumberView.bundle */; };
+		4C3E631619A0B4D900C88223 /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630C19A0B4D900C88223 /* JDFlipNumberView.m */; };
+		4C3E631719A0B4D900C88223 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E630E19A0B4D900C88223 /* JDFlipNumberViewImageFactory.m */; };
+		4C3E631819A0B4D900C88223 /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E631019A0B4D900C88223 /* UIView+JDFlipImageView.m */; };
+		4C3E631B19A0B52B00C88223 /* UIFont+FlipNumberViewExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E631A19A0B52B00C88223 /* UIFont+FlipNumberViewExample.m */; };
+		4C3E631D19A0D7E200C88223 /* JDFlipNumberViewIOS6.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4C3E631C19A0D7E200C88223 /* JDFlipNumberViewIOS6.bundle */; };
+		4C3E631F19A0D86900C88223 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C3E631E19A0D86900C88223 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +61,28 @@
 		4C3E62EE19A0B44000C88223 /* countDownAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "countDownAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		4C3E62F019A0B44000C88223 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4C3E62F219A0B44000C88223 /* countDownAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = countDownAnimationTests.m; sourceTree = "<group>"; };
+		4C3E62FC19A0B46F00C88223 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		4C3E62FD19A0B46F00C88223 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		4C3E62FE19A0B46F00C88223 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4C3E630219A0B4D900C88223 /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
+		4C3E630319A0B4D900C88223 /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
+		4C3E630419A0B4D900C88223 /* JDFlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipClockView.h; sourceTree = "<group>"; };
+		4C3E630519A0B4D900C88223 /* JDFlipClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipClockView.m; sourceTree = "<group>"; };
+		4C3E630619A0B4D900C88223 /* JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipImageView.h; sourceTree = "<group>"; };
+		4C3E630719A0B4D900C88223 /* JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipImageView.m; sourceTree = "<group>"; };
+		4C3E630819A0B4D900C88223 /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberDigitView.h; sourceTree = "<group>"; };
+		4C3E630919A0B4D900C88223 /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberDigitView.m; sourceTree = "<group>"; };
+		4C3E630A19A0B4D900C88223 /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		4C3E630B19A0B4D900C88223 /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
+		4C3E630C19A0B4D900C88223 /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
+		4C3E630D19A0B4D900C88223 /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberViewImageFactory.h; sourceTree = "<group>"; };
+		4C3E630E19A0B4D900C88223 /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
+		4C3E630F19A0B4D900C88223 /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
+		4C3E631019A0B4D900C88223 /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
+		4C3E631919A0B52B00C88223 /* UIFont+FlipNumberViewExample.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FlipNumberViewExample.h"; sourceTree = "<group>"; };
+		4C3E631A19A0B52B00C88223 /* UIFont+FlipNumberViewExample.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FlipNumberViewExample.m"; sourceTree = "<group>"; };
+		4C3E631C19A0D7E200C88223 /* JDFlipNumberViewIOS6.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberViewIOS6.bundle; sourceTree = "<group>"; };
+		4C3E631E19A0D86900C88223 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3E631F19A0D86900C88223 /* QuartzCore.framework in Frameworks */,
 				4C3E62D019A0B43F00C88223 /* CoreGraphics.framework in Frameworks */,
 				4C3E62D219A0B43F00C88223 /* UIKit.framework in Frameworks */,
 				4C3E62CE19A0B43F00C88223 /* Foundation.framework in Frameworks */,
@@ -78,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				4C3E62D319A0B43F00C88223 /* countDownAnimation */,
+				4C3E630119A0B4D900C88223 /* JDFlipNumberView */,
 				4C3E62EC19A0B44000C88223 /* countDownAnimationTests */,
 				4C3E62CC19A0B43F00C88223 /* Frameworks */,
 				4C3E62CB19A0B43F00C88223 /* Products */,
@@ -96,6 +133,7 @@
 		4C3E62CC19A0B43F00C88223 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4C3E631E19A0D86900C88223 /* QuartzCore.framework */,
 				4C3E62CD19A0B43F00C88223 /* Foundation.framework */,
 				4C3E62CF19A0B43F00C88223 /* CoreGraphics.framework */,
 				4C3E62D119A0B43F00C88223 /* UIKit.framework */,
@@ -111,6 +149,9 @@
 				4C3E62DD19A0B43F00C88223 /* AppDelegate.m */,
 				4C3E62DF19A0B43F00C88223 /* Images.xcassets */,
 				4C3E62D419A0B43F00C88223 /* Supporting Files */,
+				4C3E62FC19A0B46F00C88223 /* MainViewController.h */,
+				4C3E62FD19A0B46F00C88223 /* MainViewController.m */,
+				4C3E62FE19A0B46F00C88223 /* MainViewController.xib */,
 			);
 			path = countDownAnimation;
 			sourceTree = "<group>";
@@ -142,6 +183,31 @@
 				4C3E62EF19A0B44000C88223 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C3E630119A0B4D900C88223 /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				4C3E631C19A0D7E200C88223 /* JDFlipNumberViewIOS6.bundle */,
+				4C3E631919A0B52B00C88223 /* UIFont+FlipNumberViewExample.h */,
+				4C3E631A19A0B52B00C88223 /* UIFont+FlipNumberViewExample.m */,
+				4C3E630219A0B4D900C88223 /* JDDateCountdownFlipView.h */,
+				4C3E630319A0B4D900C88223 /* JDDateCountdownFlipView.m */,
+				4C3E630419A0B4D900C88223 /* JDFlipClockView.h */,
+				4C3E630519A0B4D900C88223 /* JDFlipClockView.m */,
+				4C3E630619A0B4D900C88223 /* JDFlipImageView.h */,
+				4C3E630719A0B4D900C88223 /* JDFlipImageView.m */,
+				4C3E630819A0B4D900C88223 /* JDFlipNumberDigitView.h */,
+				4C3E630919A0B4D900C88223 /* JDFlipNumberDigitView.m */,
+				4C3E630A19A0B4D900C88223 /* JDFlipNumberView.bundle */,
+				4C3E630B19A0B4D900C88223 /* JDFlipNumberView.h */,
+				4C3E630C19A0B4D900C88223 /* JDFlipNumberView.m */,
+				4C3E630D19A0B4D900C88223 /* JDFlipNumberViewImageFactory.h */,
+				4C3E630E19A0B4D900C88223 /* JDFlipNumberViewImageFactory.m */,
+				4C3E630F19A0B4D900C88223 /* UIView+JDFlipImageView.h */,
+				4C3E631019A0B4D900C88223 /* UIView+JDFlipImageView.m */,
+			);
+			path = JDFlipNumberView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3E631519A0B4D900C88223 /* JDFlipNumberView.bundle in Resources */,
 				4C3E62D819A0B43F00C88223 /* InfoPlist.strings in Resources */,
+				4C3E630019A0B46F00C88223 /* MainViewController.xib in Resources */,
+				4C3E631D19A0D7E200C88223 /* JDFlipNumberViewIOS6.bundle in Resources */,
 				4C3E62E019A0B43F00C88223 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,8 +308,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C3E631819A0B4D900C88223 /* UIView+JDFlipImageView.m in Sources */,
+				4C3E631419A0B4D900C88223 /* JDFlipNumberDigitView.m in Sources */,
 				4C3E62DE19A0B43F00C88223 /* AppDelegate.m in Sources */,
+				4C3E631619A0B4D900C88223 /* JDFlipNumberView.m in Sources */,
+				4C3E631219A0B4D900C88223 /* JDFlipClockView.m in Sources */,
+				4C3E62FF19A0B46F00C88223 /* MainViewController.m in Sources */,
+				4C3E631B19A0B52B00C88223 /* UIFont+FlipNumberViewExample.m in Sources */,
+				4C3E631319A0B4D900C88223 /* JDFlipImageView.m in Sources */,
 				4C3E62DA19A0B43F00C88223 /* main.m in Sources */,
+				4C3E631119A0B4D900C88223 /* JDDateCountdownFlipView.m in Sources */,
+				4C3E631719A0B4D900C88223 /* JDFlipNumberViewImageFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
